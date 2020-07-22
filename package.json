@@ -1,0 +1,29 @@
+{
+  "name": "leetcodesolution",
+  "version": "1.0.0",
+  "description": "Leetcode Solution for JavaScript",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BosenY/LeetCodeSolution.git"
+  },
+  "author": "boseny",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BosenY/LeetCodeSolution/issues"
+  },
+  "homepage": "https://github.com/BosenY/LeetCodeSolution#readme",
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@commitlint/core": "^8.3.5"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}
